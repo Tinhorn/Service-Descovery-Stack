@@ -1,28 +1,41 @@
 #!/bin/bash
 
-ip=http://$(hostname -I)
-ip=${ip::-1}
-peerurl=$ip:2380
-clienturl=$ip:2379
-etcdname=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
+#This will be run by root so no need to sudo
 
-EC2_Region=$(curl -s http://169.254.169.254/latest/meta-data/placement/availability-zone)
-EC2_Region=${EC2_Region::-1}
+yum -y update
 
-#Get members of the Service Registy Tag
-registry_instances=$(aws ec2 describe-instances \
---region $EC2_Region \
---filters "Name=tag:Purpose,Values=Service Registry" \
---query 'Reservations[*].Instances[*].[InstanceId,PrivateIpAddress]' \
---output text)
+#install python and nginxparser
+yum install -y python34 python34-pip nginxparser curl
 
-#The amount of Service Registry Instances
-count_RI=$(wc -w <<< "$registry_instances")
-count_RI=$count_RI/2
-count_RI=$((count_RI/2))
+#set python command to the latest
+alternatives --set python /usr/bin/pytnon3.4
 
-#If 1 (This Instance), Create new cluster
-if [ $count_RI == 2]
-        then
-            	nohup ./etcdnewcluster.sh &      		
+#upgrade cli and install boto
+pip install -U awscli
+pip install boto3
+
+#Get the files needed from s3
+mkdir /staging
+aws s3 cp s3://microservicediscovery/ /staging --recursive
+instanceid=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
+
+chmod 700 -R /staging
+cd /staging/
+
+
+
+#move the file to their appropriate position
+mv etcd/ /etc/
+
+echo "Starting python bootstrap" >> bootstrap.log
+python bootstrap.py $instanceid
+
+if [ $? -eq 0 ]
+then
+  echo "bootstrap.py was successful" >> bootstrap.log
+  echo "Setting permission on newly created file" >> bootstrap.log
+  chmod 700 etcdcluster.sh
+  ./etcdcluster.sh
+else
+  echo "Something went wrong" >> bootstrap.log
 fi
