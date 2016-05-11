@@ -57,10 +57,10 @@ def create_new_cluster(instance):
 	write_line_to_file(target,"nohup ./etcd --initial-advertise-peer-urls {0} --listen-peer-urls {0} --listen-client-urls {1} --advertise-client-urls {1} --initial-cluster-token service-discovery-client &".format(peerurl,clienturl))
 
 	write_line_to_file(target,"\n")
+	logger.info("Done writing file")
 
 def sync_to_cluster(instance,serviceRegistryReservations):
-	logger.info("Creating sync cluster script")
-
+	logger.info("Creating sync cluster script with peers")
 	peerurl = "http://{}:2380".format(instance.private_ip_address)
 	clienturl = "http://{}:2379".format(instance.private_ip_address)
 	clientpeerurl = ""
@@ -70,6 +70,9 @@ def sync_to_cluster(instance,serviceRegistryReservations):
 			clientpeerurl += "{}=http://{}:2380,".format(srInstance["InstanceId"],srInstance["PrivateIpAddress"])
 			
 	clientpeerurl = clientpeerurl[:-1]
+	
+	logger.info("Clientpeer url: {}".format(clientpeerurl))
+	logger.info("Instance id: {}".format(instance.id))
 
 	target = open("etcdcluster.sh", 'w')
 	target.truncate()
@@ -77,7 +80,7 @@ def sync_to_cluster(instance,serviceRegistryReservations):
 	
 	#Adding the host machine to the cluster
 	
-	write_line_to_file(target,'curl -s http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/members -XPOST -H "Content-Type: application/json" -d "{"peerURLs":["{0}"]}"'.format(peerurl))
+	write_line_to_file(target,'curl -s http://internal-Service-Registry-Internal-ELB-1537977493.us-east-1.elb.amazonaws.com:2379/v2/members -XPOST -H "Content-Type: application/json" -d \'{{"peerURLs":["{0}"]}}\''.format(peerurl))
 
 	#setting peerurl
 	write_line_to_file(target,"export ETCD_NAME={}".format(instance.id))
@@ -90,10 +93,12 @@ def sync_to_cluster(instance,serviceRegistryReservations):
 
 	write_line_to_file(target,"cd /etc/etcd/")
 	write_line_to_file(target,"\n")
+	
 
 	#starting etcd
 	write_line_to_file(target,"nohup ./etcd --initial-advertise-peer-urls {0} --listen-peer-urls {0} --listen-client-urls {1} --advertise-client-urls {1} --initial-cluster-token service-discovery-client &".format(peerurl,clienturl))
-
+	write_line_to_file(target,"\n")
+	logger.info("Done writing file")
 
 
 def write_line_to_file(target,line):

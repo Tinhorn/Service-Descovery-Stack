@@ -5,7 +5,7 @@
 yum -y update
 
 #install python and nginxparser
-yum install -y python34 python34-pip nginxparser curl
+yum install -y python34 python34-pip curl nginx
 
 #set python command to the latest
 alternatives --set python /usr/bin/pytnon3.4
@@ -13,6 +13,8 @@ alternatives --set python /usr/bin/pytnon3.4
 #upgrade cli and install boto
 pip install -U awscli
 pip install boto3
+
+
 
 #Get the files needed from s3
 mkdir /staging
@@ -36,6 +38,12 @@ then
   echo "Setting permission on newly created file" >> bootstrap.log
   chmod 700 etcdcluster.sh
   ./etcdcluster.sh
+  
+  #Backing up the nginx conf
+  cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.bak
+  
+  #starting nginx
+  service nginx start
 else
   echo "Something went wrong" >> bootstrap.log
 fi
