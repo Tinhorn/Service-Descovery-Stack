@@ -1,0 +1,52 @@
+INFO:EnginxLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginxLink:{
+    "action": "set",
+    "node": {
+        "createdIndex": 26,
+        "key": "/services/drive/i-675f04e0",
+        "modifiedIndex": 26,
+        "value": "10.5.7"
+    },
+    "prevNode": {
+        "createdIndex": 25,
+        "key": "/services/drive/i-675f04e0",
+        "modifiedIndex": 25,
+        "value": "10.5.7"
+    }
+}
+INFO:EnginxLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginxLink:{
+    "action": "set",
+    "node": {
+        "createdIndex": 27,
+        "key": "/services/drive/i-675f04e0",
+        "modifiedIndex": 27,
+        "value": "10.5.7"
+    },
+    "prevNode": {
+        "createdIndex": 26,
+        "key": "/services/drive/i-675f04e0",
+        "modifiedIndex": 26,
+        "value": "10.5.7"
+    }
+}
+INFO:EnginxLink:Starting 0 at 2016-05-12 22:40:28.581854
+INFO:EnginxLink:{'prevNode': {'createdIndex': 26, 'key': '/services/drive/i-675f04e0', 'value': '10.5.7', 'modifiedIndex': 26}, 'node': {'createdIndex': 27, 'key': '/services/drive/i-675f04e0', 'value': '10.5.7', 'modifiedIndex': 27}, 'action': 'set'}
+INFO:EnginxLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginxLink:{
+    "action": "set",
+    "node": {
+        "createdIndex": 28,
+        "key": "/services/drive/i-675f04e0",
+        "modifiedIndex": 28,
+        "value": "10.5.7"
+    },
+    "prevNode": {
+        "createdIndex": 27,
+        "key": "/services/drive/i-675f04e0",
+        "modifiedIndex": 27,
+        "value": "10.5.7"
+    }
+}
+INFO:EnginxLink:Starting Thread 0 at 2016/05/12 22 43 19
+INFO:EnginxLink:{'action': 'set', 'node': {'createdIndex': 28, 'value': '10.5.7', 'modifiedIndex': 28, 'key': '/services/drive/i-675f04e0'}, 'prevNode': {'createdIndex': 27, 'value': '10.5.7', 'modifiedIndex': 27, 'key': '/services/drive/i-675f04e0'}}

@@ -107,7 +107,7 @@ def write_line_to_file(target,line):
 
 def validate_args(argv):
 	if len(argv) < 2:
-		logging.info("No arguement, Have to specifiy the instance id")
+		logging.info("No argument, Have to specify the instance id")
 		sys.exit(1)
 
 if __name__ == "__main__":
