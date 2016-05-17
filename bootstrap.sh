@@ -42,6 +42,17 @@ then
   #Backing up the nginx conf
   cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.bak
   
+  #Repacing nginx conf
+  rm /etc/nginx/nginx.conf
+  cp nginx.conf /etc/nginx/
+  
+  #lowering the time needing to lower the timeout
+  printf "\nnet.ipv4.tcp_fin_timeout 15\n" >> /etc/sysctl.conf
+  
+  #increasing the number of file describer for nginx proxying
+  printf "\nsoft nofile 4096\nhard nofile 4096\n" >> /etc/security/limits.conf
+  
+  
   #starting nginx
   service nginx start
 else

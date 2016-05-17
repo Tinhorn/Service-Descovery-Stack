@@ -1,52 +1,181 @@
-INFO:EnginxLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
-INFO:EnginxLink:{
+INFO:EnginXLink:No argument, Have to specify the ip of the instance and file
+INFO:EnginXLink:python EnginXLink.py 204.204.1.1 
+INFO:EnginXLink:No argument, Have to specify the ip of the instance and file
+INFO:EnginXLink:python EnginXLink.py 204.204.1.1 /etc/nginx/nginx.conf
+INFO:EnginXLink:File is not readable
+INFO:EnginXLink:Either it doesn't exist or permission issues
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Starting Thread 0 at 14/05/2016 17:34:47
+INFO:EnginXLink:{
     "action": "set",
     "node": {
-        "createdIndex": 26,
+        "createdIndex": 30,
         "key": "/services/drive/i-675f04e0",
-        "modifiedIndex": 26,
-        "value": "10.5.7"
+        "modifiedIndex": 30,
+        "value": "10.5.8"
     },
     "prevNode": {
-        "createdIndex": 25,
+        "createdIndex": 29,
         "key": "/services/drive/i-675f04e0",
-        "modifiedIndex": 25,
+        "modifiedIndex": 29,
         "value": "10.5.7"
     }
 }
-INFO:EnginxLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
-INFO:EnginxLink:{
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Starting Thread 0 at 14/05/2016 17:35:16
+INFO:EnginXLink:{
     "action": "set",
     "node": {
-        "createdIndex": 27,
-        "key": "/services/drive/i-675f04e0",
-        "modifiedIndex": 27,
-        "value": "10.5.7"
-    },
-    "prevNode": {
-        "createdIndex": 26,
-        "key": "/services/drive/i-675f04e0",
-        "modifiedIndex": 26,
-        "value": "10.5.7"
+        "createdIndex": 31,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 31,
+        "value": "10.5.9"
     }
 }
-INFO:EnginxLink:Starting 0 at 2016-05-12 22:40:28.581854
-INFO:EnginxLink:{'prevNode': {'createdIndex': 26, 'key': '/services/drive/i-675f04e0', 'value': '10.5.7', 'modifiedIndex': 26}, 'node': {'createdIndex': 27, 'key': '/services/drive/i-675f04e0', 'value': '10.5.7', 'modifiedIndex': 27}, 'action': 'set'}
-INFO:EnginxLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
-INFO:EnginxLink:{
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Starting Thread 0 at 15/05/2016 01:05:50
+INFO:EnginXLink:{
     "action": "set",
     "node": {
-        "createdIndex": 28,
-        "key": "/services/drive/i-675f04e0",
-        "modifiedIndex": 28,
-        "value": "10.5.7"
+        "createdIndex": 32,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 32,
+        "value": "10.5.9"
     },
     "prevNode": {
-        "createdIndex": 27,
-        "key": "/services/drive/i-675f04e0",
-        "modifiedIndex": 27,
-        "value": "10.5.7"
+        "createdIndex": 31,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 31,
+        "value": "10.5.9"
     }
 }
-INFO:EnginxLink:Starting Thread 0 at 2016/05/12 22 43 19
-INFO:EnginxLink:{'action': 'set', 'node': {'createdIndex': 28, 'value': '10.5.7', 'modifiedIndex': 28, 'key': '/services/drive/i-675f04e0'}, 'prevNode': {'createdIndex': 27, 'value': '10.5.7', 'modifiedIndex': 27, 'key': '/services/drive/i-675f04e0'}}
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Starting Thread 0 at 15/05/2016 01:06:29
+INFO:EnginXLink:{
+    "action": "set",
+    "node": {
+        "createdIndex": 33,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 33,
+        "value": "10.5.9"
+    },
+    "prevNode": {
+        "createdIndex": 32,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 32,
+        "value": "10.5.9"
+    }
+}
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Starting Thread 0 at 15/05/2016 01:07:01
+INFO:EnginXLink:{
+    "action": "set",
+    "node": {
+        "createdIndex": 34,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 34,
+        "value": "10.5.9"
+    },
+    "prevNode": {
+        "createdIndex": 33,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 33,
+        "value": "10.5.9"
+    }
+}
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Starting Thread 0 at 15/05/2016 01:11:55
+INFO:EnginXLink:{
+    "action": "set",
+    "node": {
+        "createdIndex": 35,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 35,
+        "value": "10.5.9"
+    },
+    "prevNode": {
+        "createdIndex": 34,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 34,
+        "value": "10.5.9"
+    }
+}
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Starting Thread 0 at 15/05/2016 01:14:03
+INFO:EnginXLink:{
+    "action": "set",
+    "node": {
+        "createdIndex": 36,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 36,
+        "value": "10.5.9"
+    },
+    "prevNode": {
+        "createdIndex": 35,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 35,
+        "value": "10.5.9"
+    }
+}
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Starting Thread 0 at 15/05/2016 01:15:16
+INFO:EnginXLink:{
+    "action": "set",
+    "node": {
+        "createdIndex": 37,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 37,
+        "value": "10.5.9"
+    },
+    "prevNode": {
+        "createdIndex": 36,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 36,
+        "value": "10.5.9"
+    }
+}
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Starting Thread 0 at 15/05/2016 01:19:17
+INFO:EnginXLink:Starting Thread 0 at 15/05/2016 01:19:17
+INFO:EnginXLink:{
+    "action": "set",
+    "node": {
+        "createdIndex": 38,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 38,
+        "value": "10.5.9"
+    },
+    "prevNode": {
+        "createdIndex": 37,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 37,
+        "value": "10.5.9"
+    }
+}
+INFO:EnginXLink:{
+    "action": "set",
+    "node": {
+        "createdIndex": 38,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 38,
+        "value": "10.5.9"
+    },
+    "prevNode": {
+        "createdIndex": 37,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 37,
+        "value": "10.5.9"
+    }
+}
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
