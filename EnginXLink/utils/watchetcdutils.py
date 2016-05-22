@@ -1,12 +1,13 @@
 import logging
 import threading
 from datetime import datetime
+from utils import nginxparser
 
 from utils import utils
 
 
 class ChangeNginxThread(threading.Thread):
-    def __init__(self, thread_id, payload):
+    def __init__(self, thread_id, payload, confLoc):
         threading.Thread.__init__(self)
         self.logger = logging.getLogger("EnginXLink")
         self.thread_id = thread_id
@@ -20,3 +21,4 @@ class ChangeNginxThread(threading.Thread):
         #Block
         logger.info("Starting Thread {} at {}".format(thread_id, datetime.now().strftime('%d/%m/%Y %H:%M:%S')))
         logger.info(utils.pretty_print_json(payload))
+        nginxparser.load(())

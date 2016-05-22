@@ -6,6 +6,7 @@ import sys
 import requests
 
 from utils import watchetcdutils
+from utils import  nginxconfutils
 
 
 # TODO Validate file
@@ -23,12 +24,10 @@ def validate_args(argv):
 def watch_services_node(url, file):
     payload = {'recursive': 'true', 'wait': 'true'}
     #r = requests.get(url=url, params=payload)
-   # watch_thread = watchetcdutils.ChangeNginxThread(thread_id=watchthreadid, payload=r.json())
-   # watch_thread.start()
-  #  target = open(file)
-    print("{},{}".format('\tf'*0,"five"))
-
-
+   #watch_thread = watchetcdutils.ChangeNginxThread(thread_id=watchthreadid, payload=r.json())
+   #watch_thread.start()
+    confutils = nginxconfutils.NginxConfUtils(confloc=file,thread_id=watchthreadid)
+    confutils.load_conf()
 
 
 def main(argv):

@@ -179,3 +179,548 @@ INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazo
 INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
 INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
 INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Changing [['log_format', 'main  \'$remote_addr - $remote_user [$time_local] "$request" \'\n                      \'$status $body_bytes_sent "$http_referer" \'\n                      \'"$http_user_agent" "$http_x_forwarded_for"\''], ['access_log', '/var/log/nginx/access.log  main'], ['sendfile', 'on'], ['tcp_nopush', 'on'], ['tcp_nodelay', 'on'], ['keepalive_timeout', '65'], ['types_hash_max_size', '2048'], ['include', '/etc/nginx/mime.types'], ['default_type', 'application/octet-stream'], [['upstream', 'backend'], [['least_conn'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]], [['server'], [['listen', '80 default_server'], ['server_name', 'service.ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com'], [['location', '~*', '/(.*)/(v\\d+)/'], [['proxy_pass', 'http://$1_$2']]]]]]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Changing [['http'], [['log_format', 'main  \'$remote_addr - $remote_user [$time_local] "$request" \'\n                      \'$status $body_bytes_sent "$http_referer" \'\n                      \'"$http_user_agent" "$http_x_forwarded_for"\''], ['access_log', '/var/log/nginx/access.log  main'], ['sendfile', 'on'], ['tcp_nopush', 'on'], ['tcp_nodelay', 'on'], ['keepalive_timeout', '65'], ['types_hash_max_size', '2048'], ['include', '/etc/nginx/mime.types'], ['default_type', 'application/octet-stream'], [['upstream', 'backend'], [['least_conn'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]], [['server'], [['listen', '80 default_server'], ['server_name', 'service.ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com'], [['location', '~*', '/(.*)/(v\\d+)/'], [['proxy_pass', 'http://$1_$2']]]]]]]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Changing [['log_format', 'main  \'$remote_addr - $remote_user [$time_local] "$request" \'\n                      \'$status $body_bytes_sent "$http_referer" \'\n                      \'"$http_user_agent" "$http_x_forwarded_for"\''], ['access_log', '/var/log/nginx/access.log  main'], ['sendfile', 'on'], ['tcp_nopush', 'on'], ['tcp_nodelay', 'on'], ['keepalive_timeout', '65'], ['types_hash_max_size', '2048'], ['include', '/etc/nginx/mime.types'], ['default_type', 'application/octet-stream'], [['upstream', 'backend'], [['least_conn'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]], [['server'], [['listen', '80 default_server'], ['server_name', 'service.ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com'], [['location', '~*', '/(.*)/(v\\d+)/'], [['proxy_pass', 'http://$1_$2']]]]]]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Changing ['tcp_nodelay', 'on']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Changing [['upstream', 'backend'], [['least_conn'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Changing [['upstream', 'backend'], [['least_conn'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Changing [['upstream', 'backend'], [['least_conn'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Changing [['upstream', 'backend'], [['least_conn'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Changing [['upstream', 'backend'], [['least_conn'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Changing ['least_conn'] to load_balance_type.ip_hash
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:[['upstream', 'backend'], [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:ip_hash
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Removing backend2.example.com:8080 from [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Removing backend2.example.com:8080 from [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Removing backend2.example.com:8080 from [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Adding back1 to [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:Removing backend2.example.com:8080 from [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Adding back1 to [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Counting [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'back1'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Counting [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Checking to remove [['upstream', 'frontend'], [['least_conn']]]
+INFO:EnginXLink:0: Counting [['upstream', 'frontend'], [['least_conn']]]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['least_conn'] to ip_hash
+INFO:EnginXLink:['ip_hash']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Checking to remove [['upstream', 'frontend'], [['least_conn']]]
+INFO:EnginXLink:0: Counting [['upstream', 'frontend'], [['least_conn']]]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['server', 'backend1.example.com       weight=5'] to ip_hash
+INFO:EnginXLink:['ip_hash', 'server', 'backend1.example.com       weight=5']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['ip_hash', 'server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['ip_hash', 'server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['server', 'backend1.example.com       weight=5'] to ip_hash
+INFO:EnginXLink:[['ip_hash'], 'server', 'backend1.example.com       weight=5']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [[['ip_hash'], 'server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [[['ip_hash'], 'server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['server', 'backend1.example.com       weight=5'] to ip_hash
+INFO:EnginXLink:[['ip_hash'], 'server', 'backend1.example.com       weight=5']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [[['ip_hash'], 'server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [[['ip_hash'], 'server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['server', 'backend1.example.com       weight=5'] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash'], 'server', 'backend1.example.com       weight=5']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [[['ip_hash'], 'server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [[['ip_hash'], 'server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['server', 'backend1.example.com       weight=5'] to ip_hash
+INFO:EnginXLink:0: Changed Directive: ['server', 'backend1.example.com       weight=5']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['server', 'backend1.example.com       weight=5'] to ip_hash
+INFO:EnginXLink:0: Changed Directive: ['server', 'backend1.example.com       weight=5', ['ip_hash']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5', ['ip_hash']], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5', ['ip_hash']], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['server', 'backend1.example.com       weight=5'] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash'], ['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['server', 'backend1.example.com       weight=5'] to ip_hash
+INFO:EnginXLink:0: Changed Directive: ['server', 'backend1.example.com       weight=5', ['ip_hash']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5', ['ip_hash']], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5', ['ip_hash']], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['server', 'backend1.example.com       weight=5'] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash'], ['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing ['server', 'backend1.example.com       weight=5'] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash'], ['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash'], [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['ip_hash'], ['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['least_conn'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']] to ip_hash
+INFO:EnginXLink:0: Changed Directive: ['ip_hash', ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from ['ip_hash', ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to ['ip_hash', ['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['least_conn'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']] to least_conn
+INFO:EnginXLink:0: Changed Directive: ['least_conn', ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from ['least_conn', ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to ['least_conn', ['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['least_conn'], ['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to round_robin
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5'], ['server', 'backend2.example.com:8080'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5'], ['server', 'unix:/tmp/backend3'], ['server', 'backup1.example.com:8080   backup'], ['server', 'backup2.example.com:8080   backup']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing ['upstream', 'variable', []] to least_conn
+INFO:EnginXLink:0: Changed Directive: ['least_conn', 'variable', []]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing ['upstream', 'variable', []] to ip_hash
+INFO:EnginXLink:0: Changed Directive: ['ip_hash', 'variable', []]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [['upstream', 'variable'], []] to ip_hash
+INFO:EnginXLink:0: Changed Directive: ['ip_hash', []]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to round_robin
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [['server', 'backend1.example.com       weight=5']] to round_robin
+INFO:EnginXLink:0: Changed Directive: [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Adding back1 to [['server', 'backend1.example.com       weight=5']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash'], 'server']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn'], 'server']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['least_conn'], 'server']
+INFO:EnginXLink:0: Adding back1 to [['least_conn'], 'server']
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash'], 'server']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: ['least_conn']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from ['least_conn']
+INFO:EnginXLink:0: Adding back1 to ['least_conn']
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: ['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: ['least_conn']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from ['least_conn']
+INFO:EnginXLink:0: Adding back1 to ['least_conn']
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: ['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: ['least_conn']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from ['least_conn']
+INFO:EnginXLink:0: Adding back1 to ['least_conn']
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: ['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: ['least_conn']
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from ['least_conn']
+INFO:EnginXLink:0: Adding back1 to ['least_conn']
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: ['ip_hash']
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['least_conn']]
+INFO:EnginXLink:0: Adding back1 to [['least_conn']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['least_conn']]
+INFO:EnginXLink:0: Adding back1 to [['least_conn']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['least_conn']]
+INFO:EnginXLink:0: Adding back1 to [['least_conn']]
+INFO:EnginXLink:0: Adding back2 to [['least_conn'], ['server', 'back1']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['least_conn']]
+INFO:EnginXLink:0: Adding back1 to [['least_conn']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['least_conn']]
+INFO:EnginXLink:0: Adding back1 to [['least_conn']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:0: Adding back1 to [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['least_conn']]
+INFO:EnginXLink:0: Adding back1 to [['least_conn']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Adding back1 to [['least_conn']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['least_conn']]
+INFO:EnginXLink:0: Adding back1 to [['least_conn']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:0: Adding back1 to [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Removing backend2.example.com:8080 from [['least_conn']]
+INFO:EnginXLink:0: Adding back1 to [['least_conn']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:0: Adding back333 to [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Checking to remove [['least_conn']]
+INFO:EnginXLink:0: Counting [['least_conn']]
+INFO:EnginXLink:0: [['least_conn']] Removed
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Checking to remove [['upstream', 'backend'], [['least_conn']]]
+INFO:EnginXLink:0: Counting [['upstream', 'backend'], [['least_conn']]]
+INFO:EnginXLink:0: [['upstream', 'backend'], [['least_conn']]] Removed
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:0: Adding back333 to [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Checking to remove [['least_conn']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Checking to remove [['least_conn']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Checking to remove [['least_conn']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Checking to remove [['upstream', 'backend'], [['least_conn']]]
+INFO:EnginXLink:0: Counting [['least_conn']]
+INFO:EnginXLink:0: [['upstream', 'backend'], [['least_conn']]] Removed
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:0: Adding back333 to [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Changing [] to least_conn
+INFO:EnginXLink:0: Changed Directive: [['least_conn']]
+INFO:EnginXLink:0: Adding back1 to [['least_conn']]
+INFO:EnginXLink:0: Checking to remove [['upstream', 'backend'], [['least_conn'], ['server', 'back1']]]
+INFO:EnginXLink:0: Counting [['least_conn'], ['server', 'back1']]
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:0: Adding back333 to [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Checking to remove [['upstream', 'backend'], []]
+INFO:EnginXLink:0: Counting []
+INFO:EnginXLink:0: [['upstream', 'backend'], []] Removed
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:0: Adding back333 to [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Checking to remove [['upstream', 'backend'], []]
+INFO:EnginXLink:0: Counting []
+INFO:EnginXLink:0: [['upstream', 'backend'], []] Removed
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:0: Adding back333 to [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Checking to remove [['upstream', 'backend'], []]
+INFO:EnginXLink:0: Counting []
+INFO:EnginXLink:0: [['upstream', 'backend'], []] Removed
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:0: Adding back333 to [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Checking to remove [['upstream', 'backend'], []]
+INFO:EnginXLink:0: Counting []
+INFO:EnginXLink:0: [['upstream', 'backend'], []] Removed
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:0: Adding back333 to [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Checking to remove [['upstream', 'backend'], []]
+INFO:EnginXLink:0: Counting []
+INFO:EnginXLink:0: [['upstream', 'backend'], []] Removed
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:0: Adding back333 to [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Checking to remove [['upstream', 'backend'], []]
+INFO:EnginXLink:0: Counting []
+INFO:EnginXLink:0: [['upstream', 'backend'], []] Removed
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:0: Adding back333 to [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:0: Checking to remove [['upstream', 'backend'], []]
+INFO:EnginXLink:0: Counting []
+INFO:EnginXLink:0: [['upstream', 'backend'], []] Removed
+INFO:EnginXLink:0: Creating upstream variable
+INFO:EnginXLink:0: Changing [] to ip_hash
+INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
+INFO:EnginXLink:0: Adding back333 to [['ip_hash']]
