@@ -724,3 +724,875 @@ INFO:EnginXLink:0: Creating upstream variable
 INFO:EnginXLink:0: Changing [] to ip_hash
 INFO:EnginXLink:0: Changed Directive: [['ip_hash']]
 INFO:EnginXLink:0: Adding back333 to [['ip_hash']]
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Starting Thread 0 at 24/05/2016 22:33:05
+INFO:EnginXLink:{
+    "action": "set",
+    "node": {
+        "createdIndex": 12,
+        "expiration": "2016-05-25T02:33:21.346590612Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 12,
+        "ttl": 15,
+        "value": "10.5.9"
+    }
+}
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Starting Thread 0 at 24/05/2016 22:34:00
+INFO:EnginXLink:{
+    "action": "set",
+    "node": {
+        "createdIndex": 14,
+        "expiration": "2016-05-25T02:34:16.344200545Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 14,
+        "ttl": 15,
+        "value": "10.5.9"
+    }
+}
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Starting Thread 0 at 24/05/2016 22:34:42
+INFO:EnginXLink:{
+    "action": "set",
+    "node": {
+        "createdIndex": 16,
+        "expiration": "2016-05-25T02:34:58.881603325Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 16,
+        "ttl": 15,
+        "value": "10.5.9"
+    }
+}
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Starting Thread 0 at 24/05/2016 22:34:58
+INFO:EnginXLink:{
+    "action": "expire",
+    "node": {
+        "createdIndex": 16,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 17
+    },
+    "prevNode": {
+        "createdIndex": 16,
+        "expiration": "2016-05-25T02:34:58.881603325Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 16,
+        "value": "10.5.9"
+    }
+}
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+INFO:EnginXLink:Timeout happened
+05-24 22:46:1464144407 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-24 22:46:1464144417 EnginXLink   INFO     Timeout happened
+05-24 22:51:43 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-24 23:06:19 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-24 23:07:11 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-24 23:08:36 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-24 23:08:57 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-24 23:09:43 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-24 23:12:10 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-24 23:12:46 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-24 23:16:06 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-24 23:16:37 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-24 23:16:45 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-24 23:17:34 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-26 22:07:40 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-26 22:13:03 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-26 22:21:22 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-26 23:05:36 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-26 23:05:42 EnginXLink   INFO     Starting Thread 0
+05-26 23:05:42 EnginXLink   INFO     {
+    "action": "set",
+    "node": {
+        "createdIndex": 28,
+        "expiration": "2016-05-27T03:05:59.854223559Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 28,
+        "ttl": 15,
+        "value": "10.5.9"
+    }
+}
+05-26 23:06:09 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-26 23:06:11 EnginXLink   INFO     Starting Thread 0
+05-26 23:06:11 EnginXLink   INFO     {
+    "action": "set",
+    "node": {
+        "createdIndex": 30,
+        "expiration": "2016-05-27T03:06:28.413677016Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 30,
+        "ttl": 15,
+        "value": "10.5.9"
+    }
+}
+05-26 23:08:35 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-26 23:08:38 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 32,
+        "expiration": "2016-05-27T03:08:55.536716098Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 32,
+        "ttl": 15,
+        "value": "10.5.9"
+    }
+}
+05-26 23:08:38 EnginXLink   INFO     0: The payload is create
+05-26 23:08:51 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-26 23:08:53 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "expire",
+    "node": {
+        "createdIndex": 32,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 33
+    },
+    "prevNode": {
+        "createdIndex": 32,
+        "expiration": "2016-05-27T03:08:55.536716098Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 32,
+        "value": "10.5.9"
+    }
+}
+05-26 23:08:53 EnginXLink   INFO     0: The payload is delete
+05-26 23:25:38 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-26 23:25:41 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 34,
+        "expiration": "2016-05-27T03:25:58.06428601Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 34,
+        "ttl": 15,
+        "value": "10.5.9"
+    }
+}
+05-26 23:25:41 EnginXLink   INFO     0: The payload is create
+05-26 23:27:44 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-26 23:27:49 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 36,
+        "expiration": "2016-05-27T03:28:05.985898832Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 36,
+        "ttl": 15,
+        "value": "10.5.9"
+    }
+}
+05-26 23:27:49 EnginXLink   INFO     0: The payload is create
+05-26 23:28:58 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-26 23:29:00 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "expire",
+    "node": {
+        "createdIndex": 38,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 39
+    },
+    "prevNode": {
+        "createdIndex": 38,
+        "expiration": "2016-05-27T03:29:02.383282599Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 38,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-26 23:29:00 EnginXLink   INFO     0: The payload is delete
+05-26 23:29:03 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-26 23:29:12 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 40,
+        "expiration": "2016-05-27T03:29:29.084321068Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 40,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-26 23:29:12 EnginXLink   INFO     0: The payload is create
+05-26 23:44:24 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-26 23:44:26 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 42,
+        "expiration": "2016-05-27T03:44:42.666872152Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 42,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-26 23:44:26 EnginXLink   INFO     0: The payload is create
+05-26 23:44:26 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:13:32 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:13:36 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 44,
+        "expiration": "2016-05-27T04:13:53.510960537Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 44,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:13:36 EnginXLink   INFO     0: The payload is create
+05-27 00:13:36 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:14:28 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:14:32 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 46,
+        "expiration": "2016-05-27T04:14:49.28190835Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 46,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:14:32 EnginXLink   INFO     0: The payload is create
+05-27 00:14:32 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:14:49 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:14:52 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 48,
+        "expiration": "2016-05-27T04:15:09.009156108Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 48,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:14:52 EnginXLink   INFO     0: The payload is create
+05-27 00:14:52 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:14:52 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 00:14:52 EnginXLink   INFO     0: Adding v to []
+05-27 00:16:22 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:16:30 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 50,
+        "expiration": "2016-05-27T04:16:47.213808566Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 50,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:16:30 EnginXLink   INFO     0: The payload is create
+05-27 00:16:30 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:16:30 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 00:16:30 EnginXLink   INFO     0: Adding  to [['upstream', 'drive_v4'], []]
+05-27 00:17:25 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:17:27 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:17:28 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:17:42 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:17:45 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 52,
+        "expiration": "2016-05-27T04:18:02.04845188Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 52,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:17:45 EnginXLink   INFO     0: The payload is create
+05-27 00:17:45 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:17:45 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 00:17:45 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 00:19:04 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:19:07 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 54,
+        "expiration": "2016-05-27T04:19:23.921672452Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 54,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:19:07 EnginXLink   INFO     0: The payload is create
+05-27 00:19:07 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:19:07 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 00:19:07 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 00:25:59 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:26:05 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 56,
+        "expiration": "2016-05-27T04:26:22.513905066Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 56,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:26:05 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:26:05 EnginXLink   INFO     0: The payload is create
+05-27 00:26:05 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 00:26:05 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 00:26:05 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 00:27:06 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:27:09 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 58,
+        "expiration": "2016-05-27T04:27:26.279026163Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 58,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:27:09 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:27:09 EnginXLink   INFO     0: The payload is create
+05-27 00:27:09 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 00:27:09 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 00:27:09 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 00:29:08 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:29:12 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 60,
+        "expiration": "2016-05-27T04:29:29.433774809Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 60,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:29:12 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:29:12 EnginXLink   INFO     0: The payload is create
+05-27 00:29:12 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 00:29:12 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 00:29:12 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 00:29:41 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:29:44 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 62,
+        "expiration": "2016-05-27T04:30:00.885509293Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 62,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:29:44 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:29:44 EnginXLink   INFO     0: The payload is create
+05-27 00:29:44 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 00:29:44 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 00:29:44 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 00:30:23 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:30:27 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 64,
+        "expiration": "2016-05-27T04:30:44.13004299Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 64,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:30:27 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:30:27 EnginXLink   INFO     0: The payload is create
+05-27 00:30:27 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 00:30:27 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 00:30:27 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 00:30:41 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:30:42 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "expire",
+    "node": {
+        "createdIndex": 64,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 65
+    },
+    "prevNode": {
+        "createdIndex": 64,
+        "expiration": "2016-05-27T04:30:44.13004299Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 64,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:31:49 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:31:54 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 66,
+        "expiration": "2016-05-27T04:32:11.695712026Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 66,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:31:54 EnginXLink   INFO     0: The payload is create
+05-27 00:31:54 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:31:54 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 00:31:54 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 00:31:54 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 00:34:12 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:34:57 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:36:15 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:37:42 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:39:12 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:40:19 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:41:51 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:42:16 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 80,
+        "expiration": "2016-05-27T04:42:33.342573308Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 80,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:42:16 EnginXLink   INFO     0: The payload is create
+05-27 00:42:16 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:42:16 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 00:42:16 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 00:42:16 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 00:42:29 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:42:31 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "expire",
+    "node": {
+        "createdIndex": 80,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 81
+    },
+    "prevNode": {
+        "createdIndex": 80,
+        "expiration": "2016-05-27T04:42:33.342573308Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 80,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:42:31 EnginXLink   INFO     0: The payload is delete
+05-27 00:42:31 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:47:10 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:47:14 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 84,
+        "expiration": "2016-05-27T04:47:31.185200723Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 84,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:47:14 EnginXLink   INFO     0: The payload is create
+05-27 00:47:14 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:47:14 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 00:47:14 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 00:47:14 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 00:55:23 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:55:26 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 86,
+        "expiration": "2016-05-27T04:55:43.40905967Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 86,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:55:26 EnginXLink   INFO     0: The payload is create
+05-27 00:55:26 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:55:26 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 00:55:26 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 00:55:26 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 00:56:02 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:56:05 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 88,
+        "expiration": "2016-05-27T04:56:22.399794686Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 88,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:56:05 EnginXLink   INFO     0: The payload is create
+05-27 00:56:05 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:56:05 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 00:56:05 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 00:56:05 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 00:56:09 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:56:20 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "expire",
+    "node": {
+        "createdIndex": 88,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 89
+    },
+    "prevNode": {
+        "createdIndex": 88,
+        "expiration": "2016-05-27T04:56:22.399794686Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 88,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:56:20 EnginXLink   INFO     0: The payload is delete
+05-27 00:56:20 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:56:20 EnginXLink   INFO     0: Removing 10.5.9:8080 from [['server', '10.5.9:8080']]
+05-27 00:56:20 EnginXLink   INFO     0: Checking to remove []
+05-27 00:57:07 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:57:11 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 90,
+        "expiration": "2016-05-27T04:57:28.250760628Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 90,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:57:11 EnginXLink   INFO     0: The payload is create
+05-27 00:57:11 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:57:11 EnginXLink   INFO     0: Adding 10.5.9:8080 to [['server', '10.5.9:8080']]
+05-27 00:57:11 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080'], ['server', '10.5.9:8080']]
+05-27 00:57:14 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 00:57:27 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "expire",
+    "node": {
+        "createdIndex": 90,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 91
+    },
+    "prevNode": {
+        "createdIndex": 90,
+        "expiration": "2016-05-27T04:57:28.250760628Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 90,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 00:57:27 EnginXLink   INFO     0: The payload is delete
+05-27 00:57:27 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 00:57:27 EnginXLink   INFO     0: Removing 10.5.9:8080 from [['server', '10.5.9:8080'], ['server', '10.5.9:8080']]
+05-27 00:57:27 EnginXLink   INFO     0: Checking to remove [['server', '10.5.9:8080']]
+05-27 01:02:29 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 01:02:33 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 92,
+        "expiration": "2016-05-27T05:02:49.587745013Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 92,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 01:02:33 EnginXLink   INFO     0: The payload is create
+05-27 01:02:33 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 01:02:33 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 01:02:33 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 01:02:33 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 01:02:37 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 01:02:48 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "expire",
+    "node": {
+        "createdIndex": 92,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 93
+    },
+    "prevNode": {
+        "createdIndex": 92,
+        "expiration": "2016-05-27T05:02:49.587745013Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 92,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 01:02:48 EnginXLink   INFO     0: The payload is delete
+05-27 01:02:48 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 01:02:48 EnginXLink   INFO     0: Removing 10.5.9:8080 from [['server', '10.5.9:8080']]
+05-27 01:02:48 EnginXLink   INFO     0: Checking to remove []
+05-27 01:03:21 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 01:03:26 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 94,
+        "expiration": "2016-05-27T05:03:42.627325512Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 94,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 01:03:26 EnginXLink   INFO     0: The payload is create
+05-27 01:03:26 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 01:03:26 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 01:03:26 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 01:03:26 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 01:03:29 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 01:03:41 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "expire",
+    "node": {
+        "createdIndex": 94,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 95
+    },
+    "prevNode": {
+        "createdIndex": 94,
+        "expiration": "2016-05-27T05:03:42.627325512Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 94,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 01:03:41 EnginXLink   INFO     0: The payload is delete
+05-27 01:03:41 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 01:03:41 EnginXLink   INFO     0: Removing 10.5.9:8080 from [['server', '10.5.9:8080']]
+05-27 01:03:41 EnginXLink   INFO     0: Checking to remove []
+05-27 01:05:13 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 01:05:17 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 96,
+        "expiration": "2016-05-27T05:05:33.472243377Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 96,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 01:05:17 EnginXLink   INFO     0: The payload is create
+05-27 01:05:17 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 01:05:17 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 01:05:17 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 01:05:22 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 01:05:32 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "expire",
+    "node": {
+        "createdIndex": 96,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 97
+    },
+    "prevNode": {
+        "createdIndex": 96,
+        "expiration": "2016-05-27T05:05:33.472243377Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 96,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 01:05:32 EnginXLink   INFO     0: The payload is delete
+05-27 01:05:32 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 01:05:32 EnginXLink   INFO     0: Removing 10.5.9:8080 from [['server', '10.5.9:8080']]
+05-27 01:05:32 EnginXLink   INFO     0: Checking to remove []
+05-27 01:07:45 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 01:07:48 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 98,
+        "expiration": "2016-05-27T05:08:05.17314995Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 98,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 01:07:48 EnginXLink   INFO     0: The payload is create
+05-27 01:07:48 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 01:07:48 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 01:07:48 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 01:07:57 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 01:08:04 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "expire",
+    "node": {
+        "createdIndex": 98,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 99
+    },
+    "prevNode": {
+        "createdIndex": 98,
+        "expiration": "2016-05-27T05:08:05.17314995Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 98,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 01:08:04 EnginXLink   INFO     0: The payload is delete
+05-27 01:08:04 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 01:08:04 EnginXLink   INFO     0: Removing 10.5.9:8080 from [['server', '10.5.9:8080']]
+05-27 01:08:04 EnginXLink   INFO     0: Checking to remove []
+05-27 01:08:04 EnginXLink   INFO     0: Counting []
+05-27 01:08:04 EnginXLink   INFO     0: [] Removed
+05-27 01:09:17 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 01:09:20 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 100,
+        "expiration": "2016-05-27T05:09:36.919963609Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 100,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 01:09:20 EnginXLink   INFO     0: The payload is create
+05-27 01:09:20 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 01:09:20 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 01:09:20 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 01:09:24 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 01:09:35 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "expire",
+    "node": {
+        "createdIndex": 100,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 101
+    },
+    "prevNode": {
+        "createdIndex": 100,
+        "expiration": "2016-05-27T05:09:36.919963609Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 100,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 01:09:35 EnginXLink   INFO     0: The payload is delete
+05-27 01:09:35 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 01:09:35 EnginXLink   INFO     0: Removing 10.5.9:8080 from [['server', '10.5.9:8080']]
+05-27 01:09:35 EnginXLink   INFO     0: Checking to remove [['upstream', 'drive_v4'], []]
+05-27 01:09:35 EnginXLink   INFO     0: Counting []
+05-27 01:09:35 EnginXLink   INFO     0: [['upstream', 'drive_v4'], []] Removed
+05-27 01:18:35 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 01:18:49 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 01:22:39 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 01:22:42 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 105,
+        "expiration": "2016-05-27T05:22:59.151121319Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 105,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 01:22:42 EnginXLink   INFO     0: The payload is create
+05-27 01:22:42 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 01:22:42 EnginXLink   INFO     0: Creating upstream drive_v4
+05-27 01:22:42 EnginXLink   INFO     0: Adding 10.5.9:8080 to []
+05-27 01:22:42 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080']]
+05-27 01:25:34 EnginXLink   INFO     Watching http://ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com:2379/v2/keys/services
+05-27 01:25:39 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "set",
+    "node": {
+        "createdIndex": 107,
+        "expiration": "2016-05-27T05:25:56.408569509Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 107,
+        "ttl": 15,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 01:25:39 EnginXLink   INFO     0: The payload is create
+05-27 01:25:39 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 01:25:39 EnginXLink   INFO     0: Adding 10.5.9:8080 to [['server', '10.5.9:8080']]
+05-27 01:25:39 EnginXLink   INFO     0: Added 
+ [['server', '10.5.9:8080'], ['server', '10.5.9:8080']]
+05-27 01:25:55 EnginXLink   INFO     Starting Thread 0 with payload 
+ {
+    "action": "expire",
+    "node": {
+        "createdIndex": 107,
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 108
+    },
+    "prevNode": {
+        "createdIndex": 107,
+        "expiration": "2016-05-27T05:25:56.408569509Z",
+        "key": "/services/drive/i-675f04e1",
+        "modifiedIndex": 107,
+        "value": "10.5.9:8080;4"
+    }
+}
+05-27 01:25:55 EnginXLink   INFO     0: The payload is delete
+05-27 01:25:55 EnginXLink   INFO     0 upstream name is drive_v4
+05-27 01:25:55 EnginXLink   INFO     0: Removing 10.5.9:8080 from [['server', '10.5.9:8080'], ['server', '10.5.9:8080']]
+05-27 01:25:55 EnginXLink   INFO     0: Checking to remove [['upstream', 'drive_v4'], [['server', '10.5.9:8080']]]
+05-27 01:25:55 EnginXLink   INFO     0: Counting [['server', '10.5.9:8080']]
