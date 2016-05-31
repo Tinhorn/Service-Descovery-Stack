@@ -1,4 +1,5 @@
 import logging
+import subprocess
 import threading
 
 from utils import nginxconfutils
@@ -43,6 +44,7 @@ class ChangeNginxThread(threading.Thread):
                 upstream_directive = nginxconfparser.create_upstream_directive(name=upstream_name)
 
             nginxconfparser.add_server_to_upstream(upstream_contents=upstream_directive[1], server=value[0])
+        #Delete
         else:
 
             key = payload["node"]["key"].split("/")
@@ -56,11 +58,14 @@ class ChangeNginxThread(threading.Thread):
 
             upstream_directive = nginxconfparser.find_upstream_directive(name=upstream_name)
 
+            #Remove upstream directive
             if upstream_directive is not None:
                 nginxconfparser.del_server_from_upstream(upstream_contents=upstream_directive[1], server=value[0])
                 nginxconfparser.remove_upstream_if_empty(upstream_directive=upstream_directive)
 
         nginxconfparser.push_conf()
+
+        subprocess.run("service nginx reload", shell=True)
 
         self.lock.release()
 

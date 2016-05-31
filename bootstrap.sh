@@ -19,7 +19,7 @@ pip install boto3
 #Get the files needed from s3
 mkdir /staging
 aws s3 cp s3://microservicediscovery/ /staging --recursive
-instanceid=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
+instance_id=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
 
 chmod 700 -R /staging
 cd /staging/
@@ -30,7 +30,7 @@ cd /staging/
 mv etcd/ /etc/
 
 echo "Starting python bootstrap" >> bootstrap.log
-python bootstrap.py $instanceid
+python bootstrap.py ${instance_id}
 
 if [ $? -eq 0 ]
 then
@@ -55,6 +55,9 @@ then
   
   #starting nginx
   service nginx start
+
+  #Start EnginxLink
+  nohup python EnginxLink/EnginXLink.py ServiceRegistryELB-977958502.us-east-1.elb.amazonaws.com /etc/nginx/nginx.conf &
 else
   echo "Something went wrong" >> bootstrap.log
 fi
